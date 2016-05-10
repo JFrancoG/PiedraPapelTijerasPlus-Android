@@ -1,0 +1,379 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.apps.drpuerk.piedrapapeltijerasplus.SubMenu9opt"
+    android:background="@drawable/fondoverticalturquesa">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvModo9opt"
+            android:id="@+id/tvTitulo9optA"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/morado"
+            android:layout_weight="1"  />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2.5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tvElije"
+            android:id="@+id/tvElije9opt"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/morado"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.7" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="8">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnPiedra9opt"
+                        android:src="@drawable/piedram"
+                        android:onClick="pulsaPiedra"
+                        android:contentDescription="@string/btnPiedra"
+                        android:background="#00ffffff"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strPiedra"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvPiedra9"
+                        android:layout_weight="0.2"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnPapel9opt"
+                        android:src="@drawable/papelm"
+                        android:onClick="pulsaPapel"
+                        android:contentDescription="@string/btnPapel"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strPapel"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvPapel9"
+                        android:layout_weight="0.2"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnTijeras9opt"
+                        android:src="@drawable/tijerasm"
+                        android:onClick="pulsaTijeras"
+                        android:contentDescription="@string/btnTijeras"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strTijeras"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvTijeras9"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnEsponja9opt"
+                        android:src="@drawable/esponjam"
+                        android:onClick="pulsaEsponja"
+                        android:contentDescription="@string/strEsponja"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strEsponja"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvEsponja9"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnAire9opt"
+                        android:src="@drawable/airem"
+                        android:onClick="pulsaAire"
+                        android:contentDescription="@string/strAire"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strAire"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvAire9"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnAgua9opt"
+                        android:src="@drawable/aguam"
+                        android:onClick="pulsaAgua"
+                        android:contentDescription="@string/strAgua"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strAgua"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvAgua9"
+                        android:layout_weight="0.2"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnHumano9opt"
+                        android:src="@drawable/humanom"
+                        android:onClick="pulsaHumano"
+                        android:contentDescription="@string/strHumano"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strHumano"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvHumano9"
+                        android:layout_weight="0.2"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnFuego9opt"
+                        android:src="@drawable/fuegom"
+                        android:onClick="pulsaFuego"
+                        android:contentDescription="@string/strFuego"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strFuego"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvFuego9"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnPistola9opt"
+                        android:src="@drawable/pistolam"
+                        android:onClick="pulsaPistola"
+                        android:contentDescription="@string/strPistola"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strPistola"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvPistola9"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3" />
+
+    </LinearLayout>
+
+</RelativeLayout>

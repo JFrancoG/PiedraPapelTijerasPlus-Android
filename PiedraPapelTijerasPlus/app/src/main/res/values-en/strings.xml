@@ -1,0 +1,326 @@
+<resources>
+    <string name="app_name">RockPaperScissorsPlus</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_modalidad">Game Mode</string>
+    <string name="title_activity_registro">Register</string>
+    <string name="title_activity_sub_menu_clasico">Classic Menu</string>
+    <string name="title_activity_ajustes">Settings</string>
+    <string name="title_activity_resultado">Results</string>
+    <string name="title_activity_estadistica">Statistics</string>
+    <string name="title_activity_ajuste">Settings</string>
+    <string name="Salir">Exit App</string>
+    <string name="strNickDefecto">GUEST</string>
+    <string name="tvOpt3">Classic</string>
+    <string name="tvOpt5">For &#8216;Big Bang Theory&#8217; fans</string>
+    <string name="tvOpt9">If you\'re looking for a new experience</string>
+    <string name="tvOpt15">If you want to test your sanity level</string>
+    <string name="btnBasico">Basic \ngame</string>
+    <string name="btnBigBang">Big \nBang</string>
+    <string name="tvModal">Choose a Game Mode</string>
+    <string name="Ajustes">App Settings</string>
+    <string name="btn9opt">9 \nElements</string>
+    <string name="btn15opt">15 \nElements</string>
+    <string name="ivAjustes">Settings Icon</string>
+    <string name="txtAjustes">Settings</string>
+    <string name="txtTitAjustes">Title Settings Screen</string>
+    <string name="btnSpain">Switch language to Spanish</string>
+    <string name="btnUK">Switch language to English</string>
+    <string name="tvIdioma">Switch languages</string>
+    <string name="btnVolverAj">Back</string>
+    <string name="Volver">Back Button</string>
+    <string name="tvTitulo3opt">Rock-Paper-Scissors</string>
+    <string name="tvElije">Choose your option</string>
+    <string name="tvResultado">Results</string>
+    <string name="btnPiedra">Rock</string>
+    <string name="btnPapel">Paper</string>
+    <string name="btnTijeras">Scissors</string>
+    <string name="tvTu">You</string>
+    <string name="tvAndroid">Android</string>
+    <string name="ivPerson">Person Icon</string>
+    <string name="ivAndroid">Android Icon</string>
+    <string name="ivAndroidEleccion">Android\'s Choice Icon</string>
+    <string name="ivPersonEleccion">User\'s Choice Icon</string>
+    <string name="btnEmpezar">Play\nagain</string>
+    <string name="btnEstadisticas">See \nstatistics</string>
+    <string name="btnCambiarModo">Change \ngame mode</string>
+    <string name="btnRegistro">Register</string>
+    <string name="btnEntrar">Enter</string>
+    <string name="tvTituloPpal">Rock - Paper - Scissors</string>
+    <string name="tvSinopsis1">The classic game now with several game modes</string>
+    <string name="tvSinopsis2">You will be able to play with the three classic choices, Sheldon Cooper\'s (Big Bang Theory) five choices, nine choices for the brave and finally, fifteen choices for those who want to experience something else.</string>
+    <string name="tvRegistro">New User</string>
+    <string name="tvNick">Nickname: </string>
+    <string name="tvEmail">E-mail: </string>
+    <string name="tvNickt">Name/nickname: </string>
+    <string name="tvEmailt">E-mail address: </string>
+    <string name="tvImagen">Select a picture</string>
+    <string name="btnRegistrar">Register</string>
+    <string name="tvEstadistica">Statistics</string>
+    <string name="tvGanadas">Games Won:</string>
+    <string name="tvPerdidas">Games Lost:</string>
+    <string name="tvTablas">Tied Games:</string>
+    <string name="title_activity_sub_menu_big_bang">Big Bang Theory Menu</string>
+    <string name="btnSpock">Spock</string>
+    <string name="btnLagarto">Lizard</string>
+    <string name="tvTitulo5optA">Rock-Paper-Scissors-</string>
+    <string name="tvTitulo5optB">-Lizard-Spock</string>
+    <string name="strPiedra">Rock</string>
+    <string name="strPapel">Paper</string>
+    <string name="strTijeras">Scissors</string>
+    <string-array name="arr3opt">
+        <item>Rock</item>
+        <item>Scissors</item>
+        <item>Paper</item>
+    </string-array>
+    <string name="strLagarto">Lizard</string>
+    <string name="strSpock">Spock</string>
+    <string-array name="arr5opt">
+        <item>Rock</item>
+        <item>Scissors</item>
+        <item>Lizard</item>
+        <item>Paper</item>
+        <item>Spock</item>
+    </string-array>
+    <string-array name="arrResultado">
+        <item>IT\'S A TIE !!</item>
+        <item>YOU WON !!</item>
+        <item>YOU LOST !!</item>
+    </string-array>
+    <string-array name="arrAcciones3opt">
+        <item>Rock crushes Scissors</item>
+        <item>Paper covers Rock</item>
+        <item>Scissors cuts Paper</item>
+    </string-array>
+    <string-array name="arrAcciones5opt">
+        <item>Rock crushes Scissors</item>
+        <item>Rock crushes Lizard</item>
+        <item>Paper covers Rock</item>
+        <item>Paper disproves Spock</item>
+        <item>Scissors cuts Paper</item>
+        <item>Scissors decapitates Lizard</item>
+        <item>Lizard eats Paper</item>
+        <item>Lizard poisons Spock</item>
+        <item>Spock vaporizes Rock</item>
+        <item>Spock crashes Scissors</item>
+    </string-array>
+    <string name="strHumano">Human</string>
+    <string name="strEsponja">Sponge</string>
+    <string name="strAire">Air</string>
+    <string name="strAgua">Water</string>
+    <string name="strPistola">Gun</string>
+    <string name="strFuego">Fire</string>
+    <string-array name="arr9opt">
+        <item>Rock</item>
+        <item>Fire</item>
+        <item>Scissors</item>
+        <item>Human</item>
+        <item>Sponge</item>
+        <item>Paper</item>
+        <item>Air</item>
+        <item>Water</item>
+        <item>Gun</item>
+    </string-array>
+    <string-array name="arrAcciones9opt">
+        <item>Rock crushes Scissors</item>
+        <item>Rock crushes Sponge</item>
+        <item>Rock crushes Human</item>
+        <item>Rock pounds out Fire</item>
+        <item>Fire melts Scissors</item>
+        <item>Fire burns Sponge</item>
+        <item>Fire burns Human</item>
+        <item>Fire burns Paper</item>
+        <item>Scissors cut Paper</item>
+        <item>Scissors cut Sponge</item>
+        <item>Scissors cut Human</item>
+        <item>Scissors swish through Air</item>
+        <item>Human cleans with Sponge</item>
+        <item>Human writes Paper</item>
+        <item>Human breathes Air</item>
+        <item>Human drinks Water</item>
+        <item>Sponge soaks Paper</item>
+        <item>Sponge cleans Gun</item>
+        <item>Sponge absorbs Water</item>
+        <item>Sponge contains Air</item>
+        <item>Paper covers Rock</item>
+        <item>Paper outlaws Gun</item>
+        <item>Paper floats on Water</item>
+        <item>Paper fans Air</item>
+        <item>Air blows out Fire</item>
+        <item>Air erodes Rock</item>
+        <item>Air evaporates Water</item>
+        <item>Air tarnishes Gun</item>
+        <item>Water puts out Fire</item>
+        <item>Water erodes Rock</item>
+        <item>Water rusts Scissors</item>
+        <item>Water rusts Gun</item>
+        <item>Gun targets Rock</item>
+        <item>Gun shoots Fire</item>
+        <item>Gun outclasses Scissors</item>
+        <item>Gun shoots Human</item>
+    </string-array>
+    <string name="strSerpiente">Snake</string>
+    <string name="strArbol">Tree</string>
+    <string name="strLobo">Wolf</string>
+    <string name="strDiablo">Devil</string>
+    <string name="strDragon">Dragon</string>
+    <string name="strRayo">Lightning</string>
+    <string-array name="arr15opt">
+        <item>Rock</item>
+        <item>Fire</item>
+        <item>Scissors</item>
+        <item>Snake</item>
+        <item>Human</item>
+        <item>Tree</item>
+        <item>Wolf</item>
+        <item>Sponge</item>
+        <item>Paper</item>
+        <item>Air</item>
+        <item>Water</item>
+        <item>Dragon</item>
+        <item>Devil</item>
+        <item>Lightning</item>
+        <item>Gun</item>
+    </string-array>
+    <string-array name="arrAcciones15opt">
+        <item>Rock crushes Scissors</item>
+        <item>Rock crushes Sponge</item>
+        <item>Rock crushes Human</item>
+        <item>Rock pounds out Fire</item>
+        <item>Rock crushes Snake</item>
+        <item>Rock crushes Wolf</item>
+        <item>Rock blocks (growth of) Tree</item>
+        <item>Fire melts Scissors</item>
+        <item>Fire burns Sponge</item>
+        <item>Fire burns Human</item>
+        <item>Fire burns Paper</item>
+        <item>Fire burns Snake</item>
+        <item>Fire burns Tree</item>
+        <item>Fire burns Wolf</item>
+        <item>Scissors cut Paper</item>
+        <item>Scissors cut Sponge</item>
+        <item>Scissors cut Human</item>
+        <item>Scissors swish through Air</item>
+        <item>Scissors carve Tree</item>
+        <item>Scissors cut Snake</item>
+        <item>Scissors cut Wolf</item>
+        <item>Snake bites Human</item>
+        <item>Snake bites Wolf</item>
+        <item>Snake swallows Sponge</item>
+        <item>Snake nests in Tree</item>
+        <item>Snake nests in Paper</item>
+        <item>Snake breathes Air</item>
+        <item>Snake drinks Water</item>
+        <item>Human cleans with Sponge</item>
+        <item>Human writes Paper</item>
+        <item>Human breathes Air</item>
+        <item>Human drinks Water</item>
+        <item>Human plants Tree</item>
+        <item>Human tames Wolf</item>
+        <item>Human slays Dragon</item>
+        <item>Tree shelters Wolf</item>
+        <item>Tree shelters Dragon</item>
+        <item>Tree outlives Sponge</item>
+        <item>Tree becomes Paper</item>
+        <item>Tree produces Air</item>
+        <item>Tree drinks Water</item>
+        <item>Tree imprisons Devil</item>
+        <item>Wolf chews up Sponge</item>
+        <item>Wolf chews up Paper</item>
+        <item>Wolf breathes Air</item>
+        <item>Wolf drinks Water</item>
+        <item>Wolf outruns Dragon</item>
+        <item>Wolf outruns Lightning</item>
+        <item>Wolf bites Devil</item>
+        <item>Sponge soaks Paper</item>
+        <item>Sponge cleans Gun</item>
+        <item>Sponge absorbs Water</item>
+        <item>Sponge contains Air</item>
+        <item>Sponge cleans Devil</item>
+        <item>Sponge cleans Dragon</item>
+        <item>Sponge conducts Lightning</item>
+        <item>Paper covers Rock</item>
+        <item>Paper outlaws Gun</item>
+        <item>Paper floats on Water</item>
+        <item>Paper fans Air</item>
+        <item>Paper rebukes Devil</item>
+        <item>Paper rebukes Dragon</item>
+        <item>Paper defines Lightning</item>
+        <item>Air blows out Fire</item>
+        <item>Air erodes Rock</item>
+        <item>Air evaporates Water</item>
+        <item>Air tarnishes Gun</item>
+        <item>Air chokes Devil</item>
+        <item>Air freezes Dragon</item>
+        <item>Air creates Lightning</item>
+        <item>Water puts out Fire</item>
+        <item>Water erodes Rock</item>
+        <item>Water rusts Scissors</item>
+        <item>Water rusts Gun</item>
+        <item>Water drawns Devil</item>
+        <item>Water drawns Dragon</item>
+        <item>Water conducts Lightning</item>
+        <item>Dragon commands Devil</item>
+        <item>Dragon breathes Lightning</item>
+        <item>Dragon breathes Fire</item>
+        <item>Dragon rests on Rock</item>
+        <item>Dragon immune to Scissors</item>
+        <item>Dragon immune to Gun</item>
+        <item>Dragon spawns Snake</item>
+        <item>Devil hurls Rock</item>
+        <item>Devil casts Lightning</item>
+        <item>Devil breathes Fire</item>
+        <item>Devil possesses Human</item>
+        <item>Devil inmune to Scissors</item>
+        <item>Devil inmune to Gun</item>
+        <item>Devil eats Snake</item>
+        <item>Lightning melts Gun</item>
+        <item>Lightning strikes Snake</item>
+        <item>Lightning starts Fire</item>
+        <item>Lightning strikes Human</item>
+        <item>Lightning melts Scissors</item>
+        <item>Lightning splits Rock</item>
+        <item>Lightning splits Tree</item>
+        <item>Gun targets Rock</item>
+        <item>Gun shoots Fire</item>
+        <item>Gun outclasses Scissors</item>
+        <item>Gun shoots Human</item>
+        <item>Gun shoots Snake</item>
+        <item>Gun shoots Wolf</item>
+        <item>Gun targets Tree</item>
+    </string-array>
+    <string name="title_activity_sub_menu9opt">9 Options Menu</string>
+    <string name="title_activity_sub_menu15opt">15 Options Menu</string>
+    <string name="tvTitulo9optA">Rock-Paper-Scissors-</string>
+    <string name="tvTitulo9optB">-Sponge-Air-Water-</string>
+    <string name="tvTitulo9optC">-Human-Fire-Gun</string>
+    <string name="tvTitulo15optA">Rock-Paper-Scissors-Fire-</string>
+    <string name="tvTitulo15optB">-Tree-Air-Water-Human-</string>
+    <string name="tvTitulo15optC">-Gun-Snake-Sponge-Dragon-</string>
+    <string name="tvTitulo15optD">-Devil-Lightning-Wolf</string>
+    <string name="CaractPermitidos">0123456789qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM</string>
+    <string name="MensajeErrorNick">Enter your nickname</string>
+    <string name="MensajeErrorNick2">Too long (max. 10 char.)</string>
+    <string name="MensajeErrorEmail">Not a valid e-mail address</string>
+
+    <string name="tvModo3opt">Game mode: 3 options</string>
+    <string name="tvModo5opt">Game mode: 5 options</string>
+    <string name="tvModo9opt">Game mode: 9 options</string>
+    <string name="tvModo15opt">Game mode: 15 options</string>
+
+    <string name="ivfotoperfil">Foto de perfil</string>
+    <string name="tvFotoperfil">Photo: </string>
+    <string name="tvFotoperfilt">Photo profile: </string>
+
+
+    <string-array name="arrAccionesFoto">
+        <item>Take your own picture</item>
+        <item>Choose from gallery</item>
+        <item>Cancel</item>
+    </string-array>
+    <string name="strTitCuadroDialogo">Choose an option</string>
+    <string name="strTitCargaImagen">Choose your picture app</string>
+    <string name="tvModificarPerfil">Modify your profile</string>
+    <string name="tvPerfil">User profile</string>
+    <string name="btnGuardarCambios">Save changes</string>
+
+</resources>

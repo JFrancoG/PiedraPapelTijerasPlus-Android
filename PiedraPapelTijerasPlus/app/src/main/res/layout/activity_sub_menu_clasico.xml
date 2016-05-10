@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.apps.drpuerk.piedrapapeltijerasplus.SubMenuClasico"
+    android:background="@drawable/fondoverticalturquesa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvModo3opt"
+            android:id="@+id/tvTitulo3opt"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/morado"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tvElije"
+            android:id="@+id/tvElije3opt"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/morado"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/btnPiedra3opt"
+                android:src="@drawable/piedra3"
+                android:onClick="pulsaPiedra"
+                android:contentDescription="@string/btnPiedra"
+                android:background="#00ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/strPiedra"
+                android:id="@+id/tvPiedra3"
+                android:textColor="@color/morado"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.2" />
+
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnPapel3opt"
+                    android:src="@drawable/papel3"
+                    android:onClick="pulsaPapel"
+                    android:contentDescription="@string/btnPapel"
+                    android:background="#00ffffff"
+                    android:layout_weight="0.8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/strPapel"
+                    android:id="@+id/tvPapel3"
+                    android:textColor="@color/morado"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.2" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTijeras3opt"
+                    android:src="@drawable/tijeras3"
+                    android:onClick="pulsaTijeras"
+                    android:contentDescription="@string/btnTijeras"
+                    android:background="#00ffffff"
+                    android:layout_weight="0.8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/strTijeras"
+                    android:textColor="@color/morado"
+                    android:id="@+id/tvTijeras3"
+                    android:layout_weight="0.2" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.games.apps.drpuerk.piedrapapeltijerasplus">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/logonew"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Modalidad"
+            android:label="@string/title_activity_modalidad"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Registro"
+            android:label="@string/title_activity_registro"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SubMenuClasico"
+            android:label="@string/title_activity_sub_menu_clasico"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Modalidad" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.Modalidad" />
+        </activity>
+        <activity
+            android:name=".Ajustes"
+            android:label="@string/title_activity_ajustes"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Modalidad" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.Modalidad" />
+        </activity>
+        <activity
+            android:name=".Resultado"
+            android:label="@string/title_activity_resultado"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SubMenuClasico" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.SubMenuClasico" />
+        </activity>
+        <activity
+            android:name=".Estadistica"
+            android:label="@string/title_activity_estadistica"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Resultado" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.Resultado" />
+        </activity>
+        <activity
+            android:name=".SubMenuBigBang"
+            android:label="@string/title_activity_sub_menu_big_bang"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Modalidad" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.Modalidad" />
+        </activity>
+        <activity
+            android:name=".SubMenu9opt"
+            android:label="@string/title_activity_sub_menu9opt"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Modalidad" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.Modalidad" />
+        </activity>
+        <activity
+            android:name=".SubMenu15opt"
+            android:label="@string/title_activity_sub_menu15opt"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Modalidad" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.games.apps.drpuerk.piedrapapeltijerasplus.Modalidad" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,323 @@
+<resources>
+    <string name="app_name">PiedraPapelTijerasPlus</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_modalidad">Modalidad</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_sub_menu_clasico">Menú Clásico</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+    <string name="title_activity_resultado">Resultados</string>
+    <string name="title_activity_estadistica">Estadisticas</string>
+    <string name="title_activity_ajuste">Ajuste</string>
+    <string name="Salir">Salir de la aplicacion</string>
+    <string name="strNickDefecto">INVITADO</string>
+    <string name="tvOpt3">La de toda la vida</string>
+    <string name="tvOpt5">Para los fans de &#8216;Big Bang Theory&#8217;</string>
+    <string name="tvOpt9">Si buscas nuevas experiencias</string>
+    <string name="tvOpt15">Si quieres probar tu nivel de cordura</string>
+    <string name="btnBasico">Juego\nbásico</string>
+    <string name="btnBigBang">Big \nBang</string>
+    <string name="tvModal">Elije una modalidad</string>
+    <string name="Ajustes">Ajustes de la aplicacion</string>
+    <string name="btn9opt">9 \nOpciones</string>
+    <string name="btn15opt">15 \nOpciones</string>
+    <string name="ivAjustes">Icono de ajustes</string>
+    <string name="txtAjustes">Ajustes</string>
+    <string name="txtTitAjustes">Titulo pantalla de ajustes</string>
+    <string name="btnSpain">Cambia el idioma a Castellano</string>
+    <string name="btnUK">Cambia el idioma a Inglés</string>
+    <string name="tvIdioma">Cambia el idioma</string>
+    <string name="btnVolverAj">Volver</string>
+    <string name="Volver">Botón Volver</string>
+    <string name="tvTitulo3opt">Piedra-Papel-Tijeras</string>
+    <string name="tvElije">Elije tu opción</string>
+    <string name="tvResultado">Resultados</string>
+    <string name="btnPiedra">Piedra</string>
+    <string name="btnPapel">Papel</string>
+    <string name="btnTijeras">Tijeras</string>
+    <string name="tvTu">Tú</string>
+    <string name="tvAndroid">Android</string>
+    <string name="ivPerson">Icono de persona</string>
+    <string name="ivAndroid">Icono de android</string>
+    <string name="ivAndroidEleccion">Icono de la elección de android</string>
+    <string name="ivPersonEleccion">Icono de la elección del usuario</string>
+    <string name="btnEmpezar">Jugar \nde nuevo</string>
+    <string name="btnEstadisticas">Ver \nestadísticas</string>
+    <string name="btnCambiarModo">Cambiar\nmodalidad</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="tvTituloPpal">Piedra - Papel - Tijeras</string>
+    <string name="tvSinopsis1">El clásico juego con varias modalidades</string>
+    <string name="tvSinopsis2">Podrás jugar con las tres opciones de siempre, la modalidad de Sheldon Cooper (Big Bang Theory) de cinco opciones, con nueve opciones para los atrevidos y finalmente quince para los que quieran experimentar algo diferente.</string>
+    <string name="tvRegistro">Registro de usuario</string>
+    <string name="tvNick">Nombre: </string>
+    <string name="tvEmail">E-mail:</string>
+    <string name="tvNickt">Nombre/apodo: </string>
+    <string name="tvEmailt">E-mail: </string>
+    <string name="tvImagen">Seleccione una imagen</string>
+    <string name="btnRegistrar">Registrarse</string>
+    <string name="tvEstadistica">Estadísticas</string>
+    <string name="tvGanadas">Partidas ganadas:</string>
+    <string name="tvPerdidas">Partidas perdidas:</string>
+    <string name="tvTablas">Partidas tablas:</string>
+    <string name="title_activity_sub_menu_big_bang">Menú Big Bang Theory</string>
+    <string name="btnSpock">Spock</string>
+    <string name="btnLagarto">Lagarto</string>
+    <string name="tvTitulo5optA">Piedra-Papel-Tijeras-</string>
+    <string name="tvTitulo5optB">-Lagarto-Spock</string>
+    <string name="strPiedra">Piedra</string>
+    <string name="strPapel">Papel</string>
+    <string name="strTijeras">Tijeras</string>
+    <string-array name="arr3opt">
+        <item>Piedra</item>
+        <item>Tijeras</item>
+        <item>Papel</item>
+    </string-array>
+    <string name="strLagarto">Lagarto</string>
+    <string name="strSpock">Spock</string>
+    <string-array name="arr5opt">
+        <item>Piedra</item>
+        <item>Tijeras</item>
+        <item>Lagarto</item>
+        <item>Papel</item>
+        <item>Spock</item>
+    </string-array>
+    <string-array name="arrResultado">
+        <item>¡¡ TABLAS !!</item>
+        <item>¡¡ HAS GANADO !!</item>
+        <item>¡¡ HAS PERDIDO !!</item>
+    </string-array>
+    <string-array name="arrAcciones3opt">
+        <item>Piedra machaca Tijeras</item>
+        <item>Papel envuelve Piedra</item>
+        <item>Tijeras cortan Papel</item>
+    </string-array>
+    <string-array name="arrAcciones5opt">
+        <item>Piedra machaca Tijeras</item>
+        <item>Papel envuelve Piedra</item>
+        <item>Tijeras cortan Papel</item>
+        <item>Piedra aplasta Lagarto</item>
+        <item>Tijeras decapitan Lagarto</item>
+        <item>Lagarto come Papel</item>
+        <item>Lagarto envenena Spock</item>
+        <item>Papel desautoriza Spock</item>
+        <item>Spock vaporiza Piedra</item>
+        <item>Spock destroza Tijeras</item>
+    </string-array>
+    <string name="strHumano">Humano</string>
+    <string name="strEsponja">Esponja</string>
+    <string name="strAire">Aire</string>
+    <string name="strAgua">Agua</string>
+    <string name="strPistola">Pistola</string>
+    <string name="strFuego">Fuego</string>
+    <string-array name="arr9opt">
+        <item>Piedra</item>
+        <item>Fuego</item>
+        <item>Tijeras</item>
+        <item>Humano</item>
+        <item>Esponja</item>
+        <item>Papel</item>
+        <item>Aire</item>
+        <item>Agua</item>
+        <item>Pistola</item>
+    </string-array>
+    <string-array name="arrAcciones9opt">
+        <item>Piedra machaca Tijeras</item>
+        <item>Piedra machaca Esponja</item>
+        <item>Piedra machaca Humano</item>
+        <item>Piedra sofoca Fuego</item>
+        <item>Fuego derrite Tijeras</item>
+        <item>Fuego quema Esponja</item>
+        <item>Fuego quema Humano</item>
+        <item>Fuego quema Papel</item>
+        <item>Tijeras cortan Papel</item>
+        <item>Tijeras cortan Esponja</item>
+        <item>Tijeras cortan Humano</item>
+        <item>Tijeras chasquean el Aire</item>
+        <item>Humano limpia con Esponja</item>
+        <item>Humano escribe Papel</item>
+        <item>Humano respira Aire</item>
+        <item>Humano bebe Agua</item>
+        <item>Esponja empapa Papel</item>
+        <item>Esponja limpia Pistola</item>
+        <item>Esponja absorbe Agua</item>
+        <item>Esponja aspira Aire</item>
+        <item>Papel envuelve Piedra</item>
+        <item>Papel ilegaliza Pistola</item>
+        <item>Papel flota en el Agua</item>
+        <item>Papel abanica Aire</item>
+        <item>Aire extingue Fuego</item>
+        <item>Aire erosiona Piedra</item>
+        <item>Aire evapora Agua</item>
+        <item>Aire desluce Pistola</item>
+        <item>Agua apaga Fuego</item>
+        <item>Agua erosiona Piedra</item>
+        <item>Agua oxida Tijeras</item>
+        <item>Agua oxida Pistola</item>
+        <item>Pistola apunta a Piedra</item>
+        <item>Pistola expulsa Fuego</item>
+        <item>Pistola supera a Tijeras</item>
+        <item>Pistola dispara a Humano</item>
+    </string-array>
+    <string name="strSerpiente">Serpiente</string>
+    <string name="strArbol">Árbol</string>
+    <string name="strLobo">Lobo</string>
+    <string name="strDiablo">Diablo</string>
+    <string name="strDragon">Dragón</string>
+    <string name="strRayo">Rayo</string>
+    <string-array name="arr15opt">
+        <item>Piedra</item>
+        <item>Fuego</item>
+        <item>Tijeras</item>
+        <item>Serpiente</item>
+        <item>Humano</item>
+        <item>Árbol</item>
+        <item>Lobo</item>
+        <item>Esponja</item>
+        <item>Papel</item>
+        <item>Aire</item>
+        <item>Agua</item>
+        <item>Dragón</item>
+        <item>Diablo</item>
+        <item>Rayo</item>
+        <item>Pistola</item>
+    </string-array>
+    <string-array name="arrAcciones15opt">
+        <item>Piedra machaca Tijeras</item>
+        <item>Piedra machaca Esponja</item>
+        <item>Piedra machaca Humano</item>
+        <item>Piedra sofoca Fuego</item>
+        <item>Piedra aplasta Serpiente</item>
+        <item>Piedra aplasta Lobo</item>
+        <item>Piedra corta Árbol</item>
+        <item>Fuego derrite Tijeras</item>
+        <item>Fuego quema Esponja</item>
+        <item>Fuego quema Humano</item>
+        <item>Fuego quema Papel</item>
+        <item>Fuego quema Serpiente</item>
+        <item>Fuego quema Árbol</item>
+        <item>Fuego quema Lobo</item>
+        <item>Tijeras cortan Papel</item>
+        <item>Tijeras cortan Esponja</item>
+        <item>Tijeras cortan Humano</item>
+        <item>Tijeras chasquean el Aire</item>
+        <item>Tijeras tallan Árbol</item>
+        <item>Tijeras cortan Serpiente</item>
+        <item>Tijeras cortan Lobo</item>
+        <item>Serpiente muerde Humano</item>
+        <item>Serpiente muerde Lobo</item>
+        <item>Serpiente traga Esponja</item>
+        <item>Serpiente anida en Árbol</item>
+        <item>Serpiente anida en Papel</item>
+        <item>Serpiente respira Aire</item>
+        <item>Serpiente bebe Agua</item>
+        <item>Humano limpia con Esponja</item>
+        <item>Humano escribe Papel</item>
+        <item>Humano respira Aire</item>
+        <item>Humano bebe Agua</item>
+        <item>Humano planta Árbol</item>
+        <item>Humano domestica Lobo</item>
+        <item>Humano mata a Dragón</item>
+        <item>Árbol cobija Lobo</item>
+        <item>Árbol cobija Dragón</item>
+        <item>Árbol sobrevive a la Esponja</item>
+        <item>Árbol se convierte en Papel</item>
+        <item>Árbol produce Aire</item>
+        <item>Árbol bebe Agua</item>
+        <item>Árbol aprisiona a Diablo</item>
+        <item>Lobo mastica Esponja</item>
+        <item>Lobo mastica Papel</item>
+        <item>Lobo respira Aire</item>
+        <item>Lobo bebe Agua</item>
+        <item>Lobo corre más que Dragón</item>
+        <item>Lobo corre más que Rayo</item>
+        <item>Lobo muerde en el culo a Diablo</item>
+        <item>Esponja empapa Papel</item>
+        <item>Esponja limpia Pistola</item>
+        <item>Esponja absorbe Agua</item>
+        <item>Esponja aspira Aire</item>
+        <item>Esponja limpia a Diablo</item>
+        <item>Esponja limpia a Dragón</item>
+        <item>Esponja conduce Rayo</item>
+        <item>Papel envuelve Piedra</item>
+        <item>Papel ilegaliza Pistola</item>
+        <item>Papel flota en el Agua</item>
+        <item>Papel abanica Aire</item>
+        <item>Papel reprende a Diablo</item>
+        <item>Papel reprende a Dragón</item>
+        <item>Papel define Rayo</item>
+        <item>Aire extingue Fuego</item>
+        <item>Aire erosiona Piedra</item>
+        <item>Aire evapora Agua</item>
+        <item>Aire desluce Pistola</item>
+        <item>Aire atraganta a Diablo</item>
+        <item>Aire congela a Dragón</item>
+        <item>Aire crea Rayo</item>
+        <item>Agua apaga Fuego</item>
+        <item>Agua erosiona Piedra</item>
+        <item>Agua oxida Tijeras</item>
+        <item>Agua oxida Pistola</item>
+        <item>Agua ahoga Diablo</item>
+        <item>Agua ahoga Dragón</item>
+        <item>Agua conduce Rayo</item>
+        <item>Dragón domina a Diablo</item>
+        <item>Dragón respira Rayo</item>
+        <item>Dragón respira Fuego</item>
+        <item>Dragón descansa sobre Piedra</item>
+        <item>Dragón es inmune a Tijeras</item>
+        <item>Dragón es inmune a Pistola</item>
+        <item>Dragón engendra Serpiente</item>
+        <item>Diablo arroja Piedra</item>
+        <item>Diablo Lanza Rayo</item>
+        <item>Diablo respira Fuego</item>
+        <item>Diablo posee a Humano</item>
+        <item>Diablo es inmune a Tijeras</item>
+        <item>Diablo es inmune a Pistola</item>
+        <item>Diablo come Serpiente</item>
+        <item>Rayo derrite Pistola</item>
+        <item>Rayo cae sobre Serpiente</item>
+        <item>Rayo inicia Fuego</item>
+        <item>Rayo cae sobre Humano</item>
+        <item>Rayo derrite Tijeras</item>
+        <item>Rayo quiebra Piedra</item>
+        <item>Rayo quiebra Árbol</item>
+        <item>Pistola apunta a Piedra</item>
+        <item>Pistola expulsa Fuego</item>
+        <item>Pistola supera a Tijeras</item>
+        <item>Pistola dispara a Humano</item>
+        <item>Pistola dispara a Serpiente</item>
+        <item>Pistola dispara a Lobo</item>
+        <item>Pistola apunta a Árbol</item>
+    </string-array>
+    <string name="title_activity_sub_menu9opt">Menú 9 opciones</string>
+    <string name="title_activity_sub_menu15opt">Menú 15 opciones</string>
+    <string name="tvTitulo9optA">Piedra-Papel-Tijeras-</string>
+    <string name="tvTitulo9optB">-Esponja-Aire-Agua-</string>
+    <string name="tvTitulo9optC">-Humano-Fuego-Pistola</string>
+    <string name="tvTitulo15optA">Piedra-Papel-Tijeras-Fuego-</string>
+    <string name="tvTitulo15optB">-Árbol-Aire-Agua-Humano-</string>
+    <string name="tvTitulo15optC">-Pistola-Serpiente-Esponja-</string>
+    <string name="tvTitulo15optD">-Dragón-Diablo-Rayo-Lobo</string>
+    <string name="CaractPermitidos">0123456789qwertzuiopasdfghjklyxcvbnmñQWERTZUIOPASDFGHJKLYXCVBNMÑ</string>
+    <string name="MensajeErrorNick">Escriba su nombre</string>
+    <string name="MensajeErrorNick2">Demasiado largo (máx. 10 car.)</string>
+    <string name="MensajeErrorEmail">Email no válido</string>
+
+    <string name="tvFotoperfil">Foto: </string>
+    <string name="tvFotoperfilt">Foto de perfil: </string>
+    <string name="ivfotoperfil">Foto de perfil</string>
+    <string name="tvModo3opt">Modo de juego: 3 opciones</string>
+    <string name="tvModo5opt">Modo de juego: 5 opciones</string>
+    <string name="tvModo9opt">Modo de juego: 9 opciones</string>
+    <string name="tvModo15opt">Modo de juego: 15 opciones</string>
+
+    <string name="tvPerfil">Perfil de usuario</string>
+    <string-array name="arrAccionesFoto">
+        <item>Saca una foto</item>
+        <item>Elige de la galería</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string name="strTitCuadroDialogo">Elige una opción</string>
+    <string name="strTitCargaImagen">Elige una app de imagen</string>
+    <string name="tvModificarPerfil">Modificar Perfil</string>
+    <string name="btnGuardarCambios">Guardar cambios</string>
+</resources>

@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.apps.drpuerk.piedrapapeltijerasplus.Registro"
+    android:background="@drawable/fondoverticalturquesa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvPerfil"
+            android:id="@+id/tvRegistro"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/morado"
+            android:textSize="40sp"/>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_weight="2.9" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvNickt"
+                    android:id="@+id/tvNick"
+                    android:layout_weight="1"
+                    android:textColor="@color/morado"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:textSize="24sp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etNick"
+                    android:layout_weight="2"
+                    android:inputType="textFilter"
+                    android:layout_gravity="center"
+                    android:textColor="@color/cielo"
+                    android:digits="@string/CaractPermitidos"
+                    android:textSize="24sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvEmailt"
+                    android:id="@+id/tvEmail"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/morado"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/etEmail"
+                    android:layout_gravity="center"
+                    android:textColor="@color/cielo"
+                    android:layout_weight="2"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tvFotoperfilt"
+                    android:id="@+id/tvfotoperfil"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:textColor="@color/morado"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:textSize="24sp"/>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ivfotoperfilt"
+                        android:src="@drawable/anonimoct"
+                        android:contentDescription="@string/ivfotoperfil"
+                        android:onClick="pulsaCargarFoto"
+                        android:layout_gravity="center"
+                        android:scaleType = "centerInside"
+                        android:layout_weight="4" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cuadradot"
+                        android:id="@+id/ivCuadradot"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/btnGuardarCambios"
+            android:id="@+id/btnGuardarCambios"
+            android:drawableTop="@drawable/registrarse64"
+            android:contentDescription="@string/btnGuardarCambios"
+            android:onClick="pulsaRegistrar"
+            android:padding="10dp"
+            android:layout_weight="2.6"
+            android:background="@drawable/btnmain"
+            android:textColor="@color/morado"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

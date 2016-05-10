@@ -1,0 +1,571 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.apps.drpuerk.piedrapapeltijerasplus.SubMenu15opt"
+    android:background="@drawable/fondoverticalturquesa">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvModo15opt"
+            android:id="@+id/tvTitulo15optA"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/morado"
+            android:textSize="36sp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2.4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tvElije"
+            android:id="@+id/tvElije15opt"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/morado"
+            android:textSize="34sp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="8">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnPiedra15opt"
+                        android:src="@drawable/piedramt"
+                        android:onClick="pulsaPiedra"
+                        android:contentDescription="@string/btnPiedra"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strPiedra"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvPiedra15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnPapel15opt"
+                        android:src="@drawable/papelmt"
+                        android:onClick="pulsaPapel"
+                        android:contentDescription="@string/btnPapel"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strPapel"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvPapel15t"
+                        android:layout_weight="0.2"  />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnTijeras15opt"
+                        android:src="@drawable/tijerasmt"
+                        android:onClick="pulsaTijeras"
+                        android:contentDescription="@string/btnTijeras"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strTijeras"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvTijeras15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnFuego15opt"
+                        android:src="@drawable/fuegomt"
+                        android:onClick="pulsaFuego"
+                        android:contentDescription="@string/strFuego"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strFuego"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvFuego15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnArbol15opt"
+                        android:src="@drawable/arbolmt"
+                        android:onClick="pulsaArbol"
+                        android:contentDescription="@string/strArbol"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strArbol"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvArbol15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.6" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnAire15opt"
+                        android:src="@drawable/airemt"
+                        android:onClick="pulsaAire"
+                        android:contentDescription="@string/strAire"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strAire"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvAire15t"
+                        android:layout_weight="0.2"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnAgua15opt"
+                        android:src="@drawable/aguamt"
+                        android:onClick="pulsaAgua"
+                        android:contentDescription="@string/strAgua"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strAgua"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvAgua15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnHumano15opt"
+                        android:src="@drawable/humanomt"
+                        android:onClick="pulsaHumano"
+                        android:contentDescription="@string/strHumano"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strHumano"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvHumano15t"
+                        android:layout_weight="0.2"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnPistola15opt"
+                        android:src="@drawable/pistolamt"
+                        android:onClick="pulsaPistola"
+                        android:contentDescription="@string/strPistola"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strPistola"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvPistola15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnSerpiente15opt"
+                        android:src="@drawable/serpientemt"
+                        android:onClick="pulsaSerpiente"
+                        android:contentDescription="@string/strSerpiente"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strSerpiente"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvSerpiente15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.6" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnEsponja15opt"
+                        android:src="@drawable/esponjamt"
+                        android:onClick="pulsaEsponja"
+                        android:contentDescription="@string/strEsponja"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strEsponja"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvEsponja15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnDragon15opt"
+                        android:src="@drawable/dragonmt"
+                        android:onClick="pulsaDragon"
+                        android:contentDescription="@string/strDragon"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strDragon"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvDragon15t"
+                        android:layout_weight="0.2"  />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnDiablo15opt"
+                        android:src="@drawable/diablomt"
+                        android:onClick="pulsaDiablo"
+                        android:contentDescription="@string/strDiablo"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strDiablo"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvDiablo15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnRayo15opt"
+                        android:src="@drawable/relampagomt"
+                        android:onClick="pulsaRayo"
+                        android:contentDescription="@string/strRayo"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strRayo"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvRayo15t"
+                        android:layout_weight="0.2"  />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnLobo15opt"
+                        android:src="@drawable/lobomt"
+                        android:onClick="pulsaLobo"
+                        android:contentDescription="@string/strLobo"
+                        android:background="#00ffffff"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/strLobo"
+                        android:textColor="@color/morado"
+                        android:id="@+id/tvLobo15t"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+</RelativeLayout>
